@@ -1,7 +1,7 @@
-FROM xlucifer711/sbb_b:slim-buster
+FROM jakoo11/jakootel:slim-buster
 
 #clonning repo 
-RUN git clone https://github.com/xlucifer711/sbb_b /root/sbb_b
+RUN git clone https://github.com/jakoo11/sdd /root/sbb_b
 #working directory 
 WORKDIR /root/sbb_b
 
